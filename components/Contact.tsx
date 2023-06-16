@@ -45,7 +45,7 @@ function Contact({}: Props) {
   });
 
   return (
-    <div className="h-screen flex relative flex-col text-center md:flex-row md:text-left max-w-full px-10 justify-evenly mx-auto items-center">
+    <div className="h-screen flex relative flex-col text-center md:flex-row md:text-left max-w-full px-10 justify-evenly mx-auto items-center bg-gradient-to-t from-gray-900 to-gray-700">
     <video
         className="absolute top-0 left-0 w-full min-w-[100%] h-full object-cover"
         src="/water.mp4"
