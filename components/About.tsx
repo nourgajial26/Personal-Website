@@ -17,30 +17,30 @@ export default function About({}: Props) {
 
     
         
-        <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl pd-5'>
+        <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-300 text-2xl pd-5'>
             About
         </h3>
 
         <motion.img
             initial={{
-                x: -200,
+                x: -100,
                 opacity: 0,
             }}
             transition={{
                 duration: 1.2,
             }}
             whileInView={{opacity: 1, x:0}}
-            viewport={{once:true}}
+            // viewport={{once:true}}
             
             src='/cornell.png'
             className=" rounded-full w-32 h-32 xl:w-[200px] xl:h-[200px]  mx-auto object-cover" 
         />
 
         <div className='space-y-10 px-0 md:px-10'>
-            <h4 className='text-4xl font-semibold'>
-                Here is a <span className='underline decoration-[#F7AB0A]/50'>little</span> background
+            <h4 className='text-4xl font-semibold text-gray-200'>
+                A <span className='underline decoration-[#0edaff]/50'>little</span> background
             </h4>
-            <p className='text-base'>
+            <p className='text-base text-gray-300'>
                 I am a sophmore at Cornell University College of Engineering studying Computer Science. 
                 I am deeply passionate about the intersection of technology and art, and I am committed to exploring the uncharted territory where these two realms meet.
                 As a software developer, I find immense joy in building projects from scratch and bringing ideas to life through code. 

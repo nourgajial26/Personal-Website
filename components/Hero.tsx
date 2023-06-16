@@ -13,26 +13,26 @@ export default function Hero({}: Props) {
         delaySpeed: 2000,
     });
     return (
-        <div className='h-screen flex flex-col space-7-9 items-center justify-center text-central overflow-hidden'>
+        <div className='h-screen flex flex-col space-7-9 items-center justify-center text-central overflow-hidden bg-gradient-to-b from-gray-900 to-gray-700' >
             <BackgroundCircles/>
             <img className="relative rounded-full  h-36 w-36 mx-auto object-cover" 
-                src="/Nour.png" 
+                src="/nour2.png" 
                 alt='Headshot'
             />
         
             <div className='z-20'>
                 <h2 
-                    className=" pt-5 text-sm uppercase text-gray-500 pb-2 tracking-[15px]"
+                    className=" pt-5 text-sm uppercase text-gray-400 pb-2 tracking-[15px]"
                     >Software Engineer
                 </h2>
             </div>
             <div className='z-20'>
                 <h1 className="text-3xl lg:text-6xl font-semibold px-10">
-                    <span className='mr-3'>{text}</span>
-                    <Cursor cursorColor="#F7AB0A" />  
+                    <span className='mr-2'>{text}</span>
+                    <Cursor cursorColor="#0edaff" />  
                 </h1>
             </div>
-                <div className='pt-5 z-20'>
+                <div className='pt-5 z-20 text-gray-400'>
                     <Link href='#about'>
                         <button className='heroButton'>About</button>
                     </Link>
@@ -43,7 +43,7 @@ export default function Hero({}: Props) {
                         <button className='heroButton'>Skills</button>
                     </Link>
                     <Link href='#projects'>
-                        <button className='heroButton'>Projects</button>
+                        <button className='heroButton'>Gallery</button>
                     </Link>
                 </div>
             

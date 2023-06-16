@@ -13,8 +13,8 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <main>
-      <div className="bg-[rgb(60,60,60)] text-white h-screen snap-y snap-mandatory
-       overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80 ">
+      <div className=" bg-gray-700 text-white h-screen snap-y snap-mandatory
+       overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#0edaff]/80 ">
         <Head>
           <title> Nours Portfolio</title>
         </Head>
@@ -33,24 +33,24 @@ export default function Home() {
         </section>
 
         {/* Experience */}
-        {/* <section id='experience' className='snap-center'>
+        <section id='experience' className='snap-center'>
           <Experience/>
-        </section> */}
+        </section>
 
         {/* Skills */}
-        {/* <section id="skills" className='snap-start'>
+        <section id="skills" className='snap-start'>
           <Skills/>
-        </section> */}
+        </section>
 
         {/* Projects */}
-        {/* <section id='projects' className='snap-start'>
+        <section id='projects' className='snap-start'>
           <Projects/>
-        </section> */}
+        </section>
 
         {/* Contact */}
-        {/* <section id='contact' className='snap-start'>
+        <section id='contact' className='snap-start'>
           <Contact/>
-        </section> */}
+        </section>
       </div>
 
       
